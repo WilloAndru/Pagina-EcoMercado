@@ -1,0 +1,19 @@
+footer {
+    width: calc(100vw - 10px);
+    height: 100px;
+    padding: 5px 25px;
+    background-color: #49cb5c;
+    margin-top: 30px;
+}
+
+footer a {color: white;}
+footer a:hover {color: #c7c7c7;}
+
+#footerDiv1 {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#footerDiv2 {color: white;}

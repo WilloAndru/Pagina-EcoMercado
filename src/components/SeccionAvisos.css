@@ -1,0 +1,66 @@
+#seccionAvisos {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+} 
+
+.seccionAvisosDiv {
+    width: 48%;
+    height: 350px;
+    border-radius: 20px;
+}
+
+#ecoPro {
+    background-color: #49cb5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ecoProDiv1 {height: 40%;}
+
+#ecoProDiv1 img {
+    width: 25%;
+    margin-left: 6%;
+}
+
+#ecoProDiv2 {
+    background-color: white;
+    border-radius: 15px;
+    width: 85%;
+    padding: 15px;
+}
+
+#ecoProDiv2 h2 {color: #49cb5c;}
+
+#ecoProDiv2 p {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #717171;
+}
+
+#app {
+    background-color: #60b6ff;
+    display: flex;
+    padding: 50px 2.5%;
+}
+
+#app div {width: 45%;}
+
+#app1 h2 {
+    color: white;
+    font-size: 20px;
+}
+
+#app1 img {
+    width: 60%;
+    margin: 40px 30%;
+}
+
+#app2 img {
+    position: relative;
+    width: 90%;
+    margin-bottom: 130px;
+    margin-left: 30%;
+}

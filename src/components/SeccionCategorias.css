@@ -1,0 +1,24 @@
+#seccionCategorias {
+    display: flex;
+}
+
+#seccionCategorias button img {width: 35px;}
+
+#categorias {
+    padding-top: 5px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+#categorias button {
+    background-color: transparent;
+    min-width: 20%;
+}
+#categorias button:hover {animation: slide-top 0.2s linear both;}
+@keyframes slide-top {
+    0% {transform:translateY(0)}
+    100% {transform:translateY(-5px)}
+}
+
+#categorias button p {text-align: center;}

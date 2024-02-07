@@ -1,0 +1,11 @@
+.botonVerde {
+    background-color: #49cb5c;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    border: white 1px solid;
+}
+.botonVerde:hover {
+    background-color: #baeb6c;
+    border: #baeb6c 1px solid;
+}

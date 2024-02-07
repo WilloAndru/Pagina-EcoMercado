@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: system-ui;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+*:focus {outline: none;}
+
+body {
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {font-size: 32px;}
+h2 {font-size: 26px;}
+
+.flecha {
+    background-color: transparent;
+    font-size: 30px;
+}
+.flecha:hover {color: #49cb5c;}
+
+a {
+    text-decoration: none;
+    color: #9f9f9f;
+    line-height: 1.5;
+}
+a:hover {color: #49cb5c;}
+
+body::-webkit-scrollbar {width: 10px;}
+body::-webkit-scrollbar-track {background-color: transparent;}
+body::-webkit-scrollbar-thumb {
+    background-color: #9f9f9f;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover {background-color: #49cb5c;}
+
+button:hover {cursor: pointer;}
+
+main {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#titulo1 {
+    text-align: center;
+    line-height: 50px;
+}
+
+/* -----------------------------------------------------Media 1400------------------------------------------------------------------------------------ */
+
+@media (max-width: 1400px) {
+
+    main {width: 900px;}
+
+    #categorias button {min-width: 16.6%;}
+
+}
+
+/* -------------------------------------------------------Media 1000--------------------------------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+
+    main {width: 600px;}
+
+    #buscar-but {display: none;}
+
+    #buscador {width: 100%;}
+
+    #categorias button {min-width: 33.3%;}
+
+    #secMovil {flex-direction: column;} 
+    
+}
+
+/* ---------------------------------------------------------Media 700------------------------------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+    main {width: 400px;}
+    
+    #wallapop-img {clip-path: inset(0px 130px 0px 0px);}
+    
+}
